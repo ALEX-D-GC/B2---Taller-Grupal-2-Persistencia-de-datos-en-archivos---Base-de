@@ -1,5 +1,7 @@
 # B2---Taller-Grupal-2-Persistencia-de-datos-en-archivos---Base-de
 
+# B2---Taller-Grupal-2-Persistencia-de-datos-en-archivos---Base-de
+
 
 ### 1. Configuración de la Base de Datos (Archivo: config/Database.scala)
 
@@ -124,6 +126,9 @@ object Main extends IOApp.Simple {
     _ <- allStudents.traverse(s => IO.println(s))
   } yield ()
 }
+
+
+                     )
 
 
                      )
