@@ -103,3 +103,29 @@ object Main extends IOApp.Simple {
 ```
 
 
+### 5. Configuracion
+
+```Scala
+db {
+  driver = "com.mysql.cj.jdbc.Driver"
+  url = "jdbc:mysql://localhost:3306/estudiantes"
+  user = "root"
+  password = ""
+}
+```
+
+### 6. CSV
+
+nombre,edad,calificacion,genero
+Andrés,10,20,M
+Ana,11,19,F
+Luis,9,18,M
+Cecilia,9,18,F
+Katy,11,15,F
+Jorge,8,17,M
+Rosario,11,18,F
+Nieves,10,20,F
+Pablo,9,19,M
+Daniel,10,20,M
+
+
